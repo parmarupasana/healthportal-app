@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install --production
 
 # Copy project files
-COPY . "C:\Users\Upasana\Downloads\templatemo_592_glossy_touch\templatemo_592_glossy_touch"
+COPY . .
 
 # Expose app port (change if needed)
 EXPOSE 3000
